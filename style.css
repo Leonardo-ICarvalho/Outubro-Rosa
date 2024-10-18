@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF69B4;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+}
+.logo img {
+  width: 5vw;
+}
+
+nav {
+  width: 55vw;
+  height: 5vh;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.19vw;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.intro {
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45vh;
+}
+.intro p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5vw;
+  width: 55vw;
+  height: 25vh;
+}
+.intro img {
+  height: 40vh;
+}
+
+.events {
+  display: flex;
+  background-color: #FF69B4;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+}
+.events img {
+  height: 25vh;
+  margin-left: 4vw;
+}
+.events p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2vw;
+  width: 35vw;
+  margin-right: 4vw;
+}
+
+.tips {
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFD9EC;
+  height: 55vh;
+  align-items: center;
+}
+.tips img {
+  height: 35vh;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-icons {
+  height: 7vh;
+  margin-left: 4vw;
+}
+.footer-icons img {
+  height: 7vh;
+}
+
+.footer-text p {
+  font-size: 1vw;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-right: 4vw;
+}
+.footer-logo img {
+  height: 12vh;
+}/*# sourceMappingURL=style.css.map */
